@@ -1,0 +1,21 @@
+const getAllItems =   (req,res)=>{
+    res.send('<h2> Get All Tasks </h2>')
+}
+
+const createTask =   (req,res)=>{
+    res.send('<h2> Post Request </h2>')
+}
+
+const updateTask =   (req,res)=>{
+    res.send('<h2> Update Task </h2>')
+}
+
+const getTask =   (req,res)=>{
+    res.send('<h2> Get a Task </h2>')
+}
+
+const deleteTask =   (req,res)=>{
+    res.send('<h2> Delete Request Task </h2>')
+}
+
+module.exports={getAllItems,createTask,updateTask,getTask,deleteTask}
